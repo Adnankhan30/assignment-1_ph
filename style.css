@@ -270,3 +270,76 @@ nav {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+footer {
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+
+#footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#social-content h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    margin-top: 16px;
+}
+
+#social-media .content {
+    width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#social-media .content:hover {
+    transform: scale(1.5);
+    transition: all .4s;
+}
+
+#social-media .c-1 {
+    background-image: url('./assets/Octicons-mark-github.svg.png');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+}
+
+#social-media .c-2 {
+    background-image: url('./assets/square-linkedin-logo-isolated-white-background_469489-892.avif');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+}
+
+#social-media .c-3 {
+    background-image: url('./assets/facebook-logo_1080029-107.avif');
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: center;
+}
+
+#copyright {
+    border-top: 0.3px solid #fafafa36;
+    padding-top: 30px;
+    margin-top: 80px;
+}
+
+#copyright p {
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+}
